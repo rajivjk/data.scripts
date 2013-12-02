@@ -6,6 +6,7 @@ names_list = []
 
 #generate a list of random names
 
+print "sender, receiver, num_texts_sent"
 for i in range(1,31):
     names_list.append(names.get_full_name())
 
