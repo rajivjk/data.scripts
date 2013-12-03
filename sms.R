@@ -13,7 +13,7 @@ library(reshape)
 
 datafile <- tempfile()
 download.file('https://raw.github.com/rajivjk/data.scripts/master/sms.csv', destfile=datafile,method='curl')
-data <- read.csv(datafile,header=FALSE)
+data <- read.csv(datafile,header=TRUE)
 
 
 #the raw data doesn't have headers, so lets add that.
